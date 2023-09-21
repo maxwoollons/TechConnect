@@ -5,8 +5,7 @@
     font-weight: 600px;
     color: #333;
     overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
-
+    font-family: 'roboto', sans-serif;
 }
 
 .entire-container {
@@ -378,6 +377,62 @@ header {
     flex-wrap: wrap;
 }
 
+/* table mobile */
+@media screen and (max-width: 768px) {
+    /* current small screen table cuts off */
+    .table-container {
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 20px;
+        padding: 5px;
+        background-color: #f2f2f2;
+        overflow-x: scroll;
+    }
+
+    .table-container table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        border: 1px solid #ddd;
+    }
+
+    .table-container th, .table-container td {
+        text-align: left;
+        padding: 16px;
+        width: 100%;
+    }
+
+    .table-container tr:nth-child(even) {
+        background-color: #dbdbdb;
+    }
+
+    .table-container tr:nth-child(odd) {
+        background-color: #f2f2f2;
+    }
+
+    .undertext {
+        font-size: 15px;
+        font-weight: 600;
+        color: red;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .table-container {
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 20px;
+        padding: 5px;
+        background-color: #f2f2f2;
+        overflow-x: scroll;
+    }
+}
+
 .table-container {
     width: 100%;
     justify-content: space-evenly;
@@ -398,6 +453,7 @@ header {
 .table-container th, .table-container td {
     text-align: left;
     padding: 16px;
+    width: 100%;
 }
 
 .table-container tr:nth-child(even) {
