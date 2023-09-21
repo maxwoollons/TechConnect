@@ -447,3 +447,10 @@ form textarea {
     border: 2px solid #fcba03;
     border-radius: 4px;
 }
+
+
+.toplogo {
+    height: 10vh;
+    margin-left: 40px;
+    border-radius: 45%;
+}
