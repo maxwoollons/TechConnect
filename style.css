@@ -81,7 +81,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff0000;
+    color: #fcba03;
 }
 
 .svg {
@@ -293,7 +293,7 @@ header {
 
 
 .button:hover {
-    background-color: #ff0000;
+    background-color: #f3bb20;
     color: #fff;
 }
 
@@ -305,17 +305,29 @@ header {
 
 .contact-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+    text-align: left;
+    flex-direction: row;
     background-color: #f2f2f2;
     margin-top: 20px;
     padding: 5px;
-    height: 100vh;
+    min-height: 50vh;
 }
 
+@media screen and (max-width: 850px) {
+    .contact-container .logo-here {
+        display: none;
+    }
+
+    .map {
+        display: none;
+    }
+}
+    
 .footer-container {
     width: 100vw;
+    height: 100px;
     background-color: #fcba03;
     display: flex;
     justify-content: space-around;
@@ -356,6 +368,8 @@ header {
     justify-content: center;
     align-items: center;
     width: 30%;
+    flex-direction: column;
+
 }
 
 
@@ -510,4 +524,12 @@ form textarea {
     height: 10vh;
     margin-left: 40px;
     border-radius: 45%;
+}
+
+.footer-abn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+
 }
