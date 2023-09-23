@@ -270,10 +270,10 @@ header {
     margin-top: 20px;
     padding: 5px;
     height: 100vh;
-    background-image: url('./assets/workplace-2303851_1280.jpg');
+    background-image: url('./assets/P1010408.JPG');
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: inset 0 0 0 1000px rgba(255,255,255,.6);
+    box-shadow: inset 0 0 0 1000px rgba(255,255,255,.85);
 }
 
 .button {
