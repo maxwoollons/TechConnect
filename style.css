@@ -65,6 +65,7 @@ nav ul {
     display: flex;
     justify-content: space-around;
     width: 30%;
+
 }
 
 nav ul li {
@@ -77,6 +78,7 @@ nav ul li a {
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 14px;
+
     
 }
 
@@ -533,3 +535,44 @@ form textarea {
     width: 30%;
 
 }
+
+.aboutus-container * {
+    width: 50vw;
+}
+
+
+
+.aboutus-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+    /* wrap when it gets small */
+    .aboutus-container {
+        flex-wrap: wrap-reverse;
+        width: auto;
+    }
+
+    .aboutus-container * {
+        width: 100%;
+    }
+
+
+
+}
+
+.aboutus-text p {
+    padding: 30px 30px;
+}
+
+.title23 {
+    margin: 30px;
+}
+
