@@ -87,11 +87,11 @@ nav ul li a:hover {
 }
 
 .svg {
-    mask: url('./assets/hand.svg');
-    mask-size: cover;
+    /* mask: url('./assets/hand.svg'); */
+    /* mask-size: cover; */
     /* center image */
-    mask-position: center;
-    mask-repeat: no-repeat;
+    /* mask-position: center; */
+    /* mask-repeat: no-repeat; */
     width: 300px;
     height: 100%;
     
